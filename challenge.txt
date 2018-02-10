@@ -1,0 +1,23 @@
+4. Easy-Access Regulations Database
+Organization: Sea Fisheries Protection Authority  
+Name: Aine McCarthy
+Email: Aine.McCarthy@sfpa.ie
+
+Challenge Statement: 
+Fisheries laws are based on time and location, i.e. areas that can and cannot be fished between particular calendar dates, from open ocean areas into inshore bays and estuaries. A smart solution is required to allow fishers to access the relevant regulatory requirements for fishing in a given area, presented in text and graphically, to inform their actions. The solution should be based on the vessel-specific location and operate from oceanic fisheries to inshore waters, providing all the relevant rules that apply to each area. 
+
+Possible Solution:
+Fishing vessels carry an array of multi-functional mapping tools onboard to indicate vessel location. Onboard mapping is generally done by way of GPS showing the vessel position against a standard mapping overlay, indicating vessel position against known geographic features or mapped seabed features, e.g. Porcupine Bank, etc.
+
+The regulation of restricted areas within open ocean fishing regimes (Marine Protected Areas) should be set out spatially within the onboard mapping system, but the applicable prohibitions (i.e. what restrictions or requirements are imposed, such as increased reporting frequency) don’t currently correspond with the map system. A visual overlay that is automatically generated or communicated by audio alerts upon crossing the external boundary of areas would be ideal. 
+
+For example, a specific area may be closed for “demersal trawling” (when large nets are pulled through the seabed to target bottom-dwelling species), but open for “Pelagic fishing” (fishing that is neither close to the seabed nor near the shore). It may not be clear to the fisher exactly what is restricted in a given area.
+
+In inshore fisheries (generally within 0-6nm [nautical mile] of the coast), while there are less restrictions due to the size of vessels operating in these waters and the lesser quality of their onboard electronic devices (if any), there are still areas that would be prohibited for specific gear and species. 
+
+Handheld/mobile devices would be the preferred instrument for something like this. Their geolocation features should be able to indicate the exact location of the handset unit within any restricted areas based on the gear onboard the vessel. Literacy issues may come into play, so the onboard system should have the ability to detail the restriction, and to have this verbally or visually communicated to the Captain in a pre-recorded message via the hand held unit, e.g. “You have crossed into an area currently restricted for netting of crayfish. Please ensure that you are not fishing using this gear in this area for this species.” (The trigger for the message would be the geolocation of the onboard unit relative to the mapped closure area.) While the onboard unit would be primarily for fishers, it could also facilitate the regulatory agencies tasked to monitor and control the operations of fishing vessels actively fishing. 
+
+Resources:
+Global Fishing Watch data (http://hckrn.st/2jG2ELh)
+State of the world’s fisheries and aquaculture report, FAO (http://hckrn.st/2jETq1X) 
+Fisheries Catch Data & mMSY (http://hckrn.st/2j8u7FS)
