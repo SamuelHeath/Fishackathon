@@ -12,24 +12,25 @@ class RestrictedZoneView(APIView):
                     {
                         'id': 0,
                         'points': [
-                            {'lattitude': 110, 'longitude': 110},
-                            {'lattitude': 110, 'longitude': 111},
-                            {'lattitude': 109, 'longitude': 110},
-                            {'lattitude': 119, 'longitude': 111},
+                            {'lat': 110, 'lng': 110},
+                            {'lat': 110, 'lng': 111},
+                            {'lat': 109, 'lng': 110},
+                            {'lat': 119, 'lng': 111},
                         ]
                     },
                     {
                         'id': 1,
                         'points': [
-                            {'lattitude': 110, 'longitude': 110},
-                            {'lattitude': 110, 'longitude': 111},
-                            {'lattitude': 109, 'longitude': 110},
-                            {'lattitude': 119, 'longitude': 111},
+                            {'lat': 110, 'lng': 110},
+                            {'lat': 110, 'lng': 111},
+                            {'lat': 109, 'lng': 110},
+                            {'lat': 119, 'lng': 111},
                         ]
                     },
                 ]
             }
         )
+
 class EquipmentView(APIView):
     def get(self, request, format=None):
         zone_id = int(request.GET.get('zone-id'))
