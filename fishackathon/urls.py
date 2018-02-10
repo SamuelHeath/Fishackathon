@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
 
-from geo.views import RestrictedZoneView
+from geo.views import EquipmentView, RestrictedZoneView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,5 +25,8 @@ urlpatterns = [
         r'^api/v1/restricted-zones/?$', 
         RestrictedZoneView.as_view(),
         name='restricted-zones-api'
-    )
+    ),
+    url(r'^api/v1/equipment/?$',
+        EquipmentView.as_view(),
+        name='equipment-api')
 ]
