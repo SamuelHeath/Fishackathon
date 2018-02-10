@@ -32,7 +32,7 @@ urlpatterns = [
     ),
     
     url(
-    	r'^api/v1/licenced-zones/?$',
+    	r'^api/v1/licensed-zones/?$',
     	LicencedZoneView.as_view(),
     	name='licenced-zones-api',
     )
