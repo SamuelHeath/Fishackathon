@@ -54,7 +54,7 @@ class EquipmentView(APIView):
                 }
             )
         else:
-            return JsonRespone(
+            return JsonResponse(
                 {
                 'equipment': []
                 }    
