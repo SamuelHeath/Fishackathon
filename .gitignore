@@ -102,3 +102,8 @@ ENV/
 
 # OS generated Files
 .DS_Store
+
+Include/
+Scripts/
+pip-selfcheck.json
+tcl/
