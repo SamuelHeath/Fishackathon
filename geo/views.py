@@ -66,6 +66,23 @@ class EquipmentView(APIView):
                 }    
             )
 
+class EquipmentListView(APIView):
+    def get(self, requet, format=None):
+        return JsonResponse(
+            {
+            'equipment': {
+                'zone-0': [
+                    {'name': 'Crab Pot'},
+                    {'name': 'Fishing Net'},
+                ],
+                'zone-1': [
+                    {'name': 'Crab Pot'},
+                    {'name': 'TNT'},
+                ],
+            },
+            }
+        )
+
 class LicencedZoneView(APIView):
     def get(self, request, format=None):
 
