@@ -11,4 +11,4 @@
 - `$ python3 manage.py runserver <IP>:<PORT_NUM>`
 
 Alternatively on macOS/ Linux:
-- `$ ./run.sh [IP]:[PORT]`
+- `$ ./run.sh [IP] [PORT]`
