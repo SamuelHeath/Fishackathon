@@ -16,23 +16,27 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
-from geo.views import EquipmentView, RestrictedZoneView, LicencedZoneView
+from geo.views import EquipmentView, EquipmentListView, RestrictedZoneView, LicencedZoneView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(
-        r'^api/v1/restricted-zones?$', 
+        r'^api/v1/restricted-zones/?$', 
         RestrictedZoneView.as_view(),
         name='restricted-zones-api'
     ),
     url(
-    	r'^api/v1/equipment?$',
+    	r'^api/v1/equipment/?$',
         EquipmentView.as_view(),
         name='equipment-api'
     ),
-    
     url(
-    	r'^api/v1/licenced-zones?$',
+        r'^api/v1/equipment-list/$',
+        EquipmentListView.as_view(),
+        name='equipment-list-api'
+        ),
+    url(
+    	r'^api/v1/licensed-zones/?$',
     	LicencedZoneView.as_view(),
     	name='licenced-zones-api',
     )

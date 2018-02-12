@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pip3 install -r requirements.txt
 python3 manage.py makemigrations
 python3 manage.py migrate
 
@@ -12,4 +13,3 @@ elif [ $# -eq 1 ]
 else 
 	python3 manage.py runserver $1:$2
 fi
-
